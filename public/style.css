@@ -1,0 +1,170 @@
+/* === Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* === Background Animation === */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #4a4aee, #8b5cf6, #ec4899);
+    background-size: 400% 400%;
+    animation: gradientShift 12s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* === Container === */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* === Heading === */
+h1 {
+    text-align: center;
+    color: #4a4aee;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* === Inputs === */
+.input-section {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    flex: 1;
+}
+
+#dueDate {
+    flex: 0.7;
+}
+
+button {
+    background: #4a4aee;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #3b3bd6;
+    transform: translateY(-2px);
+}
+
+/* === Search bar === */
+.search {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* === Task List === */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9ff;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background: #f0f0ff;
+    transform: scale(1.02);
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* === Task info === */
+.task-meta {
+    font-size: 0.8rem;
+    color: gray;
+    margin-top: 3px;
+}
+
+/* === Buttons === */
+.edit-btn,
+.delete-btn {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.edit-btn {
+    color: #f4b400;
+}
+
+.delete-btn {
+    color: #ef4444;
+}
+
+.edit-btn:hover {
+    color: #d49a00;
+}
+
+.delete-btn:hover {
+    color: #b91c1c;
+}
+
+/* === Priority Colors === */
+li.low {
+    border-left: 5px solid #22c55e;
+}
+
+li.medium {
+    border-left: 5px solid #facc15;
+}
+
+li.high {
+    border-left: 5px solid #ef4444;
+}

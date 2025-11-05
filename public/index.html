@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskMaster | To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>✨ TaskMaster</h1>
+
+            <!-- Search Bar -->
+            <input type="text" class="search" id="searchInput" placeholder="🔍 Search your tasks..." />
+
+            <!-- Input Section -->
+            <div class="input-section">
+                <input type="text" id="taskInput" placeholder="Enter a new task..." />
+                <input type="date" id="dueDate" />
+                <select id="priority">
+                    <option value="low">🟢 Low</option>
+                    <option value="medium">🟡 Medium</option>
+                    <option value="high">🔴 High</option>
+                </select>
+                <button id="addBtn">Add</button>
+            </div>
+
+            <!-- Task List -->
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
