@@ -29,3 +29,11 @@ so no stress — we go **step-by-step**, no speed-running.
 | Persistent Data 💾 | Stores tasks in `tasks.json` |
 
 ---
+Screenshots: 
+![Folder Structure Screenshot](file structure.jpg)
+![Home Page Screenshot](homepage.jpg)
+![Task List Screenshot](task added.jpg)
+![Task List Screenshot](editing task.jpg)
+![Task List Screenshot](edit options.jpg)
+
+
