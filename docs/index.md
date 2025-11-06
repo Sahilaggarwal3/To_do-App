@@ -32,7 +32,7 @@ so no stress — we go **step-by-step**, no speed-running.
 Screenshots: 
 Folder Structure Screenshot(docs/file structure.jpg)
 
-Home Page Screenshot(docs/homepage.jpg)
+Home Page Screenshot(homepage.jpg)
 
 Task added Screenshot(docs/task added.jpg)
 
