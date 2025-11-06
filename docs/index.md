@@ -30,15 +30,8 @@ so no stress — we go **step-by-step**, no speed-running.
 
 ---
 Screenshots: 
-Folder Structure Screenshot(docs/file structure.jpg)
-
-Home Page Screenshot(homepage.jpg)
-
-Task added Screenshot(docs/task added.jpg)
-
-Editing tasks Screenshot(docs/editing task.jpg)
-
-Options available for editing Screenshot(docs/edit options.jpg)
-
-
-
+![Folder Structure Screenshot](docs/file-structure.jpg)
+![Home Page Screenshot](docs/homepage.jpg)
+![Task Added Screenshot](docs/task-added.jpg)
+![Editing Tasks Screenshot](docs/editing-task.jpg)
+![Options Available Screenshot](docs/edit-options.jpg)
